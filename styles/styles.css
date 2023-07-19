@@ -68,11 +68,10 @@ nav{
   display: flex;
   padding-left: 200px;
   height: 650px;
-  background-image: url("images/Group 14.png");
+  background-image: url(../images/Group\ 14.png);
 }
 .banner-content{
  margin-top: 120px;
-  
 }
 .banner-title{
   color: #0B0223;
@@ -123,6 +122,7 @@ margin-left: -40px;
 }
 .banner-img{
   margin-left: 150px;
+  margin-top: -30px;
 
 }
 
@@ -191,7 +191,52 @@ margin-left: -40px;
   width: 360px;
 }
 
+/* play instantly Section */
 
+.play-instantly-container{
+  display: flex;
+}
+.playins-content {
+  margin-top:100px ;
+  margin-left: 150px;
+}
+.playins-content h1{
+  align-items: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0;
+
+}
+.play-instant-text{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.no-install{
+  margin-left: 75px;
+}
+.playins-descrip{
+  color: #534C64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  width: 470px;
+}
+.play-img-sector img {
+  margin-right: 100px;
+  margin-left: 220px;
+  width: 580px;
+  height: 600px;
+ 
+}
+.play-img-sector .img2{
+  width: 250px;
+  height: 280px;
+  margin-top: -220px;
+  margin-left:  130px;
+  
+}
 
 
 /* responsive section */
