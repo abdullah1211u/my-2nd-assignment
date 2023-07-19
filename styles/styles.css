@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+  font-family:'Work Sans', sans-serif; ;
+}
+
+/* Nav bar section */
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-sector{
+  display: flex;
+  margin-left: 260px;
+}
+.nav-title{
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 10px;
+
+}
+ .extra-task{
+  color: #FF42A5;
+}
+ .nav-ul{
+  display: flex;
+  margin-right:70px ;
+}
+.nav-bar li{
+  list-style: none;
+  text-decoration: none;
+  margin: 0px 20px;
+  color: #3C354F;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+}
+.follow-us-sector{
+  display: flex;
+  padding:16px 30px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);   
+  margin-top: -16px;
+  margin-left: -20px;
+}
+.yt-img{
+  margin-left: 10px;
+  width: 33.916px;
+  height: 24px;
+}
+.tiktok-img{
+  margin-left: 5px;
+  width: 33.916px;
+  height: 24px;
+}
+
+/* banner section */
+
